@@ -1,9 +1,10 @@
 {
   "name": "passport-jwt-testing",
-  "version": "0..0",
+  "version": "0.1.0",
   "description": "Project to test passport.js and JWT",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/brilang/passport-jwt-testing#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
