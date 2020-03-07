@@ -1,0 +1,27 @@
+{
+  "name": "passport-jwt-testing",
+  "version": "0..0",
+  "description": "Project to test passport.js and JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brilang/passport-jwt-testing.git"
+  },
+  "keywords": [
+    "passport",
+    "jwt",
+    "express"
+  ],
+  "author": "Brian Lang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brilang/passport-jwt-testing/issues"
+  },
+  "homepage": "https://github.com/brilang/passport-jwt-testing#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
